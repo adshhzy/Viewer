@@ -51,7 +51,7 @@ void MainWindow::ReadMultiTopoMeta(){
     if(foldername.isEmpty())return;
     s_outdir = foldername.toStdString();
 
-    ReadSuf1(s_outdir+string("/cross-section/testM.suf"));
+    ReadSuf1(s_outdir+string("/cross-section/space_arrangement.suf"));
     ReadSuf2(s_outdir+string("/suf/outcombine.suf"));
     ReadCellTopo(s_outdir + string("/suf/"));
 
