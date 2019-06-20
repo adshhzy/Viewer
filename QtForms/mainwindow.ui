@@ -439,19 +439,6 @@
          <enum>Qt::Horizontal</enum>
         </property>
        </widget>
-       <widget class="QCheckBox" name="UnitNormalBox">
-        <property name="geometry">
-         <rect>
-          <x>160</x>
-          <y>90</y>
-          <width>101</width>
-          <height>20</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>UnitNormal</string>
-        </property>
-       </widget>
        <widget class="QCheckBox" name="RenderSurfaceBox">
         <property name="geometry">
          <rect>
@@ -552,7 +539,7 @@
         <property name="geometry">
          <rect>
           <x>160</x>
-          <y>110</y>
+          <y>90</y>
           <width>89</width>
           <height>20</height>
          </rect>
@@ -575,22 +562,6 @@
         </property>
         <property name="text">
          <string>Diffuse</string>
-        </property>
-       </widget>
-       <widget class="QCheckBox" name="RenderFlipNormal">
-        <property name="geometry">
-         <rect>
-          <x>160</x>
-          <y>150</y>
-          <width>101</width>
-          <height>20</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>FlipNormal</string>
-        </property>
-        <property name="checked">
-         <bool>false</bool>
         </property>
        </widget>
        <widget class="QSlider" name="RenderDecadeSlider">
@@ -763,7 +734,7 @@
         <property name="geometry">
          <rect>
           <x>160</x>
-          <y>130</y>
+          <y>110</y>
           <width>101</width>
           <height>20</height>
          </rect>
@@ -779,7 +750,7 @@
         <property name="geometry">
          <rect>
           <x>40</x>
-          <y>150</y>
+          <y>130</y>
           <width>89</width>
           <height>20</height>
          </rect>

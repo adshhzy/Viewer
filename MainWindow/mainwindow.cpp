@@ -320,7 +320,7 @@ void MainWindow::MainWindowUpdateGL_Multi(){
 
     //visibility[ui->leftcomboBox->currentIndex()] = COMPLETELY_VISIBLE;
 
-    displayMulti_Surfaces1->BuildDisplay(infoSurfDisp(true,ui->RenderNormalBox->isChecked(),ui->RenderSurfaceBox->isChecked(),ui->RenderWireBox->isChecked(),
+    displayMulti_Surfaces1->BuildDisplay(infoSurfDisp(ui->RenderDoubleSide->isChecked(),ui->RenderNormalBox->isChecked(),ui->RenderSurfaceBox->isChecked(),ui->RenderWireBox->isChecked(),
                                                      ui->RenderMarkerBox->isChecked(),ui->FlipMaterialcheckBox->isChecked(),
                                                      ui->RenderNLengthSlider->value(),ui->RenderLWidthSlider->value(),ui->RenderUpNormalSlider->value()));
 
@@ -349,7 +349,7 @@ void MainWindow::MainWindowUpdateGL_Multi2(){
 
     cout<<"MainWindowUpdateGL_Multi2"<<endl;
 
-    displayMulti_Surfaces2->BuildDisplay(infoSurfDisp(true,ui->RenderNormalBox->isChecked(),ui->RenderSurfaceBox->isChecked(),ui->RenderWireBox->isChecked(),
+    displayMulti_Surfaces2->BuildDisplay(infoSurfDisp(ui->RenderDoubleSide->isChecked(),ui->RenderNormalBox->isChecked(),ui->RenderSurfaceBox->isChecked(),ui->RenderWireBox->isChecked(),
                                                      ui->RenderMarkerBox->isChecked(),ui->FlipMaterialcheckBox->isChecked(),
                                                      ui->RenderNLengthSlider->value(),ui->RenderLWidthSlider->value(),ui->RenderUpNormalSlider->value()));
 
@@ -428,7 +428,7 @@ void MainWindow::MainWindowUpdateGL_MMCT(){
     if(ui->MMPickSurfSlider->value()<-1)return;
 
     cout<<"MainWindowUpdateGL_MMCT"<<endl;
-    displayMulti_CellTopo->BuildDisplay(infoSurfDisp(true,ui->RenderNormalBox->isChecked(),ui->RenderSurfaceBox->isChecked(),ui->RenderWireBox->isChecked(),
+    displayMulti_CellTopo->BuildDisplay(infoSurfDisp(ui->RenderDoubleSide->isChecked(),ui->RenderNormalBox->isChecked(),ui->RenderSurfaceBox->isChecked(),ui->RenderWireBox->isChecked(),
                                            ui->RenderMarkerBox->isChecked(),ui->FlipMaterialcheckBox->isChecked(),
                                            ui->RenderNLengthSlider->value(),ui->RenderLWidthSlider->value(),ui->RenderUpNormalSlider->value()),
                               TopoCurInd,ui->MMPickSurfSlider->value());
