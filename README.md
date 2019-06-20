@@ -1,6 +1,6 @@
 # Viewer
 
-This viewer is used for visualizing the multi-labeled surface (.suf).
+This viewer is used for visualizing the multi-labeled surface (.suf). Please refer to https://www.cse.wustl.edu/~taoju/lliu/paper/ctr2suf/program.html for a description of this format.
 
 The viewer requires QT and Eigen3. Please build the program by openning the .pro file in QT. Please also specify the include directory of Eigen3 in the .pro file.
 
