@@ -12,7 +12,7 @@ Pless the LoadTopo button, and select the folder that contains the three folders
 
 https://github.com/adshhzy/Multitopo
 
-When you visualizing the multi-labeled surface (.suf), you can slide the label slider to visualize surface of different labels (maniford surfaces). When the slider get to -1 (leftmost), you will see the non-maniford surface network that divided the space into different labels.
+When you visualizing the multi-labeled surface (.suf), you can slide the label slider to visualize surface of different labels (maniford surfaces). When the slider get to -1 (leftmost), you will see the non-maniford surface network that divided the space into different labels. Check or uncheck the FlipMaterial checkbox to see the adjacent relationship of different labels.
 
 
 For further questions about the code and the paper, please contact Zhiyang Huang at adshhzy@gmail.com or zhiyang.huang@wustl.edu (might be invalid after he graduated). 
